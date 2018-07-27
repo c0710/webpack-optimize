@@ -1,0 +1,23 @@
+{
+  "name": "chunk-learn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rimraf dist && webpack --config config/webpack.config.base.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
+}
